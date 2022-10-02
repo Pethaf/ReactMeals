@@ -1,5 +1,11 @@
-export const Meals = () => {
+import { useContext } from "react";
+import { AppContext } from "../Context";
+const Meals = () => {
+    const context =useContext(AppContext);
+    console.log(context);
     return (
-        <p>Meals Component</p>
+        <h1>Meals Component</h1>
     )
 }
+
+export default Meals;

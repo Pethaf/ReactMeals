@@ -3,3 +3,5 @@ export const Modal = () => {
         <p>Modal component</p>
     )
 }
+
+export default Modal;

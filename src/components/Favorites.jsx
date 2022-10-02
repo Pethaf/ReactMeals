@@ -5,3 +5,5 @@ export const Favorites = () => {
         </p>
     )
 }
+
+export default Favorites;

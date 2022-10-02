@@ -3,3 +3,5 @@ export const Search = () => {
         <p>Search</p>
     )
 }
+
+export default Search;
