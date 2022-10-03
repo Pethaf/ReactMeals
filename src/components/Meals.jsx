@@ -1,7 +1,6 @@
-import { useContext } from "react";
-import { AppContext } from "../Context";
+import { useGlobalContext } from "../Context";
 const Meals = () => {
-    const context =useContext(AppContext);
+    const context = useGlobalContext(); 
     console.log(context);
     return (
         <h1>Meals Component</h1>
